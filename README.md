@@ -1,5 +1,7 @@
 # Customer-Performance-Dashboard-
 
+--- 
+
 ## Introduction
 
 This project consists of a Power BI dashboard designed to analyze patient data, optimize healthcare management, and enhance decision-making in the medical field. Through advanced analytics and key indicators, it provides insights into patient demographics, health trends, and the impact of various factors on medical outcomes.
@@ -15,18 +17,24 @@ Identification of high-risk patients, regular patients, and occasional patients.
 - ✅ How to implement a dynamic ranking system to identify patients who require priority follow-up?
 - ✅ What are the cost trends in healthcare based on patient gender?
 
-💡Solving Healthcare Challenges
+## Solving Healthcare Challenges
+
 Implemented Solutions:
-Patient Segmentation: Classifying patients based on medical history and visit frequency.
-Healthcare Cost Analysis: Comparing medical expenses by age, gender, and parenthood status.
-Medical Resource Optimization: Identifying hospitalization trends to anticipate staffing and equipment needs.
-Priority Patient Monitoring: Implementing a dynamic scoring system to identify high-risk patients.
+- Patient Segmentation: Classifying patients based on medical history and visit frequency.
+- Healthcare Cost Analysis: Comparing medical expenses by age, gender, and parenthood status.
+- Medical Resource Optimization: Identifying hospitalization trends to anticipate staffing and equipment needs.
+- Priority Patient Monitoring: Implementing a dynamic scoring system to identify high-risk patients.
 
 ---
 
-## Data Model
-The dataset follows a star schema architecture, consisting of:
+## **Database Setup & Design**
 
+## **Schema Structure**
+The dataset follows a star schema architecture, consisting of:
+- The database contains **9 tables**: 'DimProduct', 'DimSalesTerritory', 'DimCustomer', 'DimGeography', 'DimDates', 'FactInternetSales', 'All Measures', 'Customers Masures' and 'Dynamic Customers'.
+- These tables are designed with **primary keys**, **foreign key constraints**, and proper indexing to maintain data integrity and optimize query perfromance.
+- You can find the databse schema ![image](https://github.com/user-attachments/assets/34e096fa-48ff-4618-8701-feec0b90d4cc)
+  
 ### Fact Table (Transactional Data)
 FactPatientVisits: Contains patient visit data (dates, type of care, costs, diagnosis, etc.).
 
@@ -57,13 +65,6 @@ Effectively visualize medical trends to support decision-making.
 This project highlights the use of Power BI to improve healthcare data management. By providing clear insights into patients and medical trends, it helps optimize resources and enhance patient care.
 
 ---
-
-## **Database Setup & Design**
-
-## **Schema Structure**
-- The database contains **9 tables**: 'DimProduct', 'DimSalesTerritory', 'DimCustomer', 'DimGeography', 'DimDates', 'FactInternetSales', 'All Measures', 'Customers Masures' and 'Dynamic Customers'.
-- These tables are designed with **primary keys**, **foreign key constraints**, and proper indexing to maintain data integrity and optimize query perfromance.
-- You can find the databse schema ![image](https://github.com/user-attachments/assets/34e096fa-48ff-4618-8701-feec0b90d4cc)
 
 ## Customers Measures 
 
