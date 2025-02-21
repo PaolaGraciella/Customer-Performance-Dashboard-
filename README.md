@@ -6,14 +6,14 @@ This project consists of a Power BI dashboard designed to analyze patient data, 
 
 ## ❓ Key Questions Answered
 
-✅ How to calculate the average age of patients?
-✅ How to determine the total number of patients?
-✅ How to categorize patients based on their medical history and visit frequency?
+- ✅ How to calculate the average age of patients?
+- ✅ How to determine the total number of patients?
+- ✅ How to categorize patients based on their medical history and visit frequency?
 
 Identification of high-risk patients, regular patients, and occasional patients.
-✅ How to analyze the impact of parenthood on healthcare costs and patient preferences?
-✅ How to implement a dynamic ranking system to identify patients who require priority follow-up?
-✅ What are the cost trends in healthcare based on patient gender?
+- ✅ How to analyze the impact of parenthood on healthcare costs and patient preferences?
+- ✅ How to implement a dynamic ranking system to identify patients who require priority follow-up?
+- ✅ What are the cost trends in healthcare based on patient gender?
 
 💡Solving Healthcare Challenges
 Implemented Solutions:
