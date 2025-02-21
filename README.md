@@ -1,11 +1,60 @@
 # Customer-Performance-Dashboard-
-## *Key Questions Answered:*
-1. Discover how to calculate the average age of your customers.
-2. Learn the steps to determine the total count of your customer base.
-3. Master the art of categorizing your customers based on their total orders and purchases. We'll identify VIP Customers, Loyal Customers, and Periodic Buyers.
-4. Explore how to analyze revenue based on whether your customers have children or not, gaining critical insights into their preferences.
-5. Implement a dynamic ranking system to identify and celebrate your top-performing customers, boosting your business strategies.
-6. Gain valuable insights into revenue trends by examining customer gender.
+
+## Introduction
+
+This project consists of a Power BI dashboard designed to analyze patient data, optimize healthcare management, and enhance decision-making in the medical field. Through advanced analytics and key indicators, it provides insights into patient demographics, health trends, and the impact of various factors on medical outcomes.
+
+## ❓ Key Questions Answered
+
+✅ How to calculate the average age of patients?
+✅ How to determine the total number of patients?
+✅ How to categorize patients based on their medical history and visit frequency?
+
+Identification of high-risk patients, regular patients, and occasional patients.
+✅ How to analyze the impact of parenthood on healthcare costs and patient preferences?
+✅ How to implement a dynamic ranking system to identify patients who require priority follow-up?
+✅ What are the cost trends in healthcare based on patient gender?
+
+💡Solving Healthcare Challenges
+Implemented Solutions:
+Patient Segmentation: Classifying patients based on medical history and visit frequency.
+Healthcare Cost Analysis: Comparing medical expenses by age, gender, and parenthood status.
+Medical Resource Optimization: Identifying hospitalization trends to anticipate staffing and equipment needs.
+Priority Patient Monitoring: Implementing a dynamic scoring system to identify high-risk patients.
+
+---
+
+## Data Model
+The dataset follows a star schema architecture, consisting of:
+
+### Fact Table (Transactional Data)
+FactPatientVisits: Contains patient visit data (dates, type of care, costs, diagnosis, etc.).
+
+### Dimension Tables
+DimPatient: Patient demographic information (age, gender, parental status, etc.).
+DimDate: Medical calendar and analysis periods.
+DimHospital: Information on healthcare facilities.
+DimGeography: Location data for patients and healthcare institutions.
+
+### Objective
+The primary goal of this project is to showcase the advanced use of Power BI for healthcare data analysis, including:
+
+### Exploring medical trends
+Optimizing care management and resource allocation
+Segmenting and identifying high-risk patients
+Analyzing costs and factors influencing medical expenses
+
+## Learning Outcomes
+This project has allowed me to:
+
+Master healthcare data modeling and the creation of interactive reports in Power BI.
+Design and optimize a relational data model for patient analysis.
+Implement advanced DAX measures for patient tracking and segmentation.
+Effectively visualize medical trends to support decision-making.
+
+## Conclusion
+
+This project highlights the use of Power BI to improve healthcare data management. By providing clear insights into patients and medical trends, it helps optimize resources and enhance patient care.
 
 ---
 
